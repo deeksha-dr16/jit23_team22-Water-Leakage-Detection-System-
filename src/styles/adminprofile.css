@@ -1,0 +1,80 @@
+.adminProfile{
+    padding:30px;
+    min-height:100vh;
+    background:#08233b;
+}
+
+.adminProfile h1{
+    color:#ffffff;
+    font-size:32px;
+    margin-bottom:30px;
+    font-weight:700;
+}
+
+.profileCard{
+    max-width:760px;
+    background:#1e293b;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+}
+
+.profileRow{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    padding:20px 0;
+    border-bottom:1px solid rgba(255,255,255,.15);
+}
+
+.profileRow svg{
+    color:#38bdf8;
+    min-width:22px;
+}
+
+.profileRow span{
+    width:120px;
+    color:#cbd5e1;
+    font-weight:600;
+    font-size:17px;
+}
+
+.profileRow strong{
+    color:#ffffff;
+    flex:1;
+    font-size:17px;
+    font-weight:500;
+}
+
+.profileRow input{
+    flex:1;
+    padding:10px 15px;
+    background:#334155;
+    border:1px solid #475569;
+    border-radius:8px;
+    color:#ffffff;
+    font-size:16px;
+    outline:none;
+}
+
+.profileRow input:focus{
+    border-color:#38bdf8;
+}
+
+.editBtn{
+    margin-top:30px;
+    padding:12px 28px;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(90deg,#2563eb,#38bdf8);
+    color:#ffffff;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.editBtn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(37,99,235,.4);
+}

@@ -1,0 +1,130 @@
+.citizenDashboard{
+    padding:30px;
+    color:white;
+}
+
+.welcomeCard{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:25px;
+    border-radius:15px;
+    background:#1b263b;
+    margin-bottom:30px;
+}
+
+.welcomeCard h1{
+    margin:0;
+    font-size:28px;
+}
+
+.welcomeCard p{
+    margin-top:8px;
+    color:#bfc7d5;
+}
+
+.statsGrid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-bottom:35px;
+}
+
+.statCard{
+    border-radius:15px;
+    padding:25px;
+    color:white;
+    text-align:center;
+    transition:.3s;
+}
+
+.statCard:hover{
+    transform:translateY(-5px);
+}
+
+.total{
+    background:#2563eb;
+}
+
+.pending{
+    background:#f59e0b;
+}
+
+.progress{
+    background:#ef4444;
+}
+
+.resolved{
+    background:#10b981;
+}
+
+.statCard h2{
+    font-size:40px;
+    margin:15px 0;
+}
+
+.statCard span{
+    font-size:17px;
+}
+
+.recentReports{
+    margin-top:30px;
+}
+
+.recentReports h2{
+    margin-bottom:20px;
+}
+
+.reportCard{
+    background:#162032;
+    border-radius:12px;
+    padding:18px;
+    margin-bottom:18px;
+}
+
+.top{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+.green{
+    color:#22c55e;
+    font-weight:bold;
+}
+
+.yellow{
+    color:#facc15;
+    font-weight:bold;
+}
+
+.orange{
+    color:#fb923c;
+    font-weight:bold;
+}
+
+.empty{
+    padding:25px;
+    background:#162032;
+    border-radius:10px;
+    text-align:center;
+    color:#cbd5e1;
+}
+
+@media(max-width:768px){
+
+.statsGrid{
+
+grid-template-columns:1fr;
+
+}
+
+.welcomeCard{
+
+flex-direction:column;
+text-align:center;
+
+}
+
+}
